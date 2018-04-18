@@ -15,7 +15,7 @@ app.get('/', (request, response) => {
   response.send('Welcome to the coding blog.');
 });
 
-app.use('/posts', blogpostRoutes);
+app.use('/blogposts', blogpostRoutes);
 
 
 
